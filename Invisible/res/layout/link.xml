@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/logon_bgcolor">
+
+    <Button
+            android:background="@drawable/logon_bg_btn"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:text="L"
+            android:id="@+id/btn_link_left"
+            android:width="100dp"
+            android:layout_alignBottom="@+id/btn_link_middle" android:layout_toLeftOf="@+id/btn_link_middle"
+            android:layout_marginRight="5dp" android:textColor="#ffffffff"/>
+    <Button
+            android:background="@drawable/logon_bg_btn"
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:text="M"
+            android:id="@+id/btn_link_middle"
+            android:layout_centerVertical="true" android:layout_centerHorizontal="true" android:textColor="#ffffffff"/>
+    <Button
+            android:background="@drawable/logon_bg_btn"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:text="R"
+            android:id="@+id/btn_link_right" android:layout_alignBottom="@+id/btn_link_middle"
+            android:layout_toRightOf="@+id/btn_link_middle" android:layout_marginLeft="5dp"
+            android:textColor="#ffffffff"/>
+    <Button
+
+            android:background="@drawable/logon_bg_btn"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Space"
+            android:id="@+id/btn_link_space"
+            android:layout_below="@+id/btn_link_left" android:layout_alignStart="@+id/btn_link_left" android:layout_marginTop="49dp"
+            android:textColor="#ffffffff"/>
+    <Button
+            android:background="@drawable/logon_bg_btn"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Enter"
+            android:id="@+id/btn_link_enter" android:layout_alignTop="@+id/btn_link_space" android:layout_toRightOf="@+id/btn_link_middle"
+            android:textColor="#ffffffff"/>
+    <Button
+            android:background="@drawable/logon_bg_btn"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="Back"
+            android:id="@+id/btn_link_exit" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp" android:textColor="#ffffffff"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            android:background="@android:drawable/ic_menu_help" android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"/>
+</RelativeLayout>

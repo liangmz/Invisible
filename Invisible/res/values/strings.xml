@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">INVISIBLE</string>
+    <drawable name="btn_normal">#ff3497ff</drawable>
+    <drawable name="btn_pressed">#ff3362c2</drawable>
+</resources>

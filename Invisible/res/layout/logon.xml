@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@drawable/logon_bgcolor">
+    <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_ip"
+            android:background="@drawable/logon_bg_ip"
+            android:text="192.168.1.2" android:textColor="#ff379cff" android:textSize="30dp"
+            android:textStyle="bold" android:textIsSelectable="false" android:typeface="serif"
+            android:minWidth="250dp"
+            android:minHeight="50dp"
+            android:layout_above="@+id/btn_logon_logon"
+            android:layout_alignStart="@+id/btn_logon_logon"
+            android:singleLine="true"
+            android:lines="1"
+            android:maxLength="15"
+            android:digits="1234567890."
+            />
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Connection"
+            android:id="@+id/btn_logon_logon"
+            android:padding="30dp"
+            android:background="@drawable/logon_bg_btn"
+            android:minWidth="250dp"
+            android:textSize="30dp"
+            android:layout_centerVertical="true" android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp" android:textStyle="bold" android:textColor="#ffffffff"/>
+    <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="Exit"
+            android:id="@+id/btn_logon_exit"
+            android:background="@drawable/logon_bg_btn"
+            android:layout_marginBottom="30dp" android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" android:textColor="#ffffffff"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView" android:layout_above="@+id/et_ip" android:layout_alignStart="@+id/et_ip"
+            android:src="@drawable/easyicon_net_111" android:layout_toLeftOf="@+id/btn_logon_exit"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Invisible"
+            android:id="@+id/textView" android:layout_alignTop="@+id/imageView"
+            android:layout_toRightOf="@+id/imageView" android:layout_marginTop="35dp" android:textColor="#ffffffff"
+            android:textSize="35dp" android:textStyle="bold|italic" />
+</RelativeLayout>
+
